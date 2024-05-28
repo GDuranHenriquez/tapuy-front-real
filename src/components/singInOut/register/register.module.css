@@ -1,0 +1,51 @@
+.containerFormRegister{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 20px;
+  width: 600px;
+  max-width: 800px;
+  min-width: 400px;
+  margin: auto 0;
+}
+
+.containerFormRegister > h1{
+  margin-bottom: 20px;
+}
+
+.containerFormRegister > form{
+  width: 95%;
+}
+
+.containerButton{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 50px;
+}
+.containerButton > button{
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: max-content;
+  font-weight: 600;
+}
+
+.btnEye{
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0 5px 5px 0;
+}
+
+.invalidInput{
+  width: 100%;
+  text-align: center;
+  font-size: 11px;
+  color: red;
+  margin: 0;
+  padding: 0;
+}

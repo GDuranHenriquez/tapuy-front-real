@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 
 //pagesComponents
-import PageSingInOut from './pages/singInOut/singInOut'
+import PageSingInOut from './pages/singInOut/SingInOutPage'
 
 function App() {
 
